@@ -1,8 +1,7 @@
 #WRITE YOUR CODE IN THIS FILE
 def password(p):
-    return p
-    if p = "Knights19"
-        print("Good job!")
-    else
-        print("HACKER ALERT! HACKER ALERT")
-print(password(Knights19):)
+    if p == "Knights19":
+        return "ACCESS GRANTED"
+    else:
+        return "ACCESS DENIED"
+print(password("Knights18"))
